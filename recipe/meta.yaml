@@ -11,7 +11,7 @@ source:
   sha256: 137917882b91acf38b3843479a1f841f477f2def89451284cafb3f97a016a475
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -25,6 +25,8 @@ requirements:
     - numpy
     - pandas
     - matplotlib-base
+    - nir
+    - nirtorch
 
 test:
   imports:
