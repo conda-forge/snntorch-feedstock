@@ -1,5 +1,5 @@
 {% set name = "snntorch" %}
-{% set version = "0.9.4" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/snntorch-{{ version }}.tar.gz
-  sha256: eaa0dd46675c471bf0b616068ee777564377bcb46b2104840a4ff4332de01909
+  sha256: 93c33506a5975c1d0d2387a130def02382789197314cefb2c70511b05a03536e
 
 build:
   number: 0
